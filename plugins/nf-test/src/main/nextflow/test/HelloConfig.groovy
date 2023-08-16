@@ -1,4 +1,4 @@
-package nextflow.hello
+package nextflow.test
 
 import groovy.transform.PackageScope
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package nextflow.hello
+package nextflow.test
 
 import groovy.transform.CompileStatic
 import nextflow.Session

@@ -1,2 +1,2 @@
-nextflow.hello.HelloFactory
-nextflow.hello.HelloExtension
+nextflow.test.HelloFactory
+nextflow.test.HelloExtension

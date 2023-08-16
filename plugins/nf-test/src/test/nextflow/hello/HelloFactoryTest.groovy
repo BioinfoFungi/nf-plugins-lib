@@ -17,6 +17,8 @@
 package nextflow.hello
 
 import nextflow.Session
+import nextflow.test.HelloFactory
+import nextflow.test.HelloObserver
 import spock.lang.Specification
 
 /**

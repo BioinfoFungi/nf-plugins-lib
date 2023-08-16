@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package nextflow.hello
+package nextflow.test
 
 import groovy.transform.CompileStatic
 import groovy.util.logging.Slf4j
@@ -32,11 +32,11 @@ class HelloObserver implements TraceObserver {
 
     @Override
     void onFlowCreate(Session session) {
-        log.info "Pipeline is starting! 🚀"
+        log.info "Plugin test onFlowCreate"
     }
 
     @Override
     void onFlowComplete() {
-        log.info "Pipeline complete! 👋"
+        log.info "Plugin test onFlowComplete"
     }
 }

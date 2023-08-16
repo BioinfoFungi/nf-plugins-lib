@@ -29,6 +29,7 @@ include {reverse} from 'plugin/nf-test'
 
 workflow {
      channel.reverse('hi!').view()
+     println WorkflowMain.help()
     // csvData = file('download.csv').readLines()
     // sraList = []
     // // 处理 CSV 数据
