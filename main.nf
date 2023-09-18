@@ -66,9 +66,13 @@ workflow {
     // ch_sra.view()
 
     Channel
-      .ofTweets('nextflow', excludeRetweets: true).view()
+      .ofTweets("2", project: "id",valid:false).view()
 
-
+// Channel
+//   .ofTweets('nextflow', excludeRetweets: true)
+//   .map { author, date_tweet -> author }
+//   .collect()
+//   .view()
     // ch = channel.watchTopic('analysis-ngs')
       // .subscribe { println "new message received ${it[0]}" }
     // ch.view()
